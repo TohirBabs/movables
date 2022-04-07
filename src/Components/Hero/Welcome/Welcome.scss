@@ -6,8 +6,20 @@
         font-style: normal;
         font-weight: 500;
         font-size: 4rem;
-        padding: 13rem 19rem;
+        padding: 0 19rem;
+        padding-top: 12rem;
+        padding-bottom: 5rem;
         line-height: 92px;
         text-align: center;
+    }
+
+    button{
+        font-size: 29px;
+        line-height: 44px;
+        background-color: transparent;
+        border: 2px white solid;
+        border-radius: 2rem;
+        color: white;
+        padding: 1rem 5rem;
     }
 }
