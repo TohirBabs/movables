@@ -1,12 +1,13 @@
 import React from 'react'
+import'./Benefits.css'
 
 import benefits from './benefits.png'
 
 const Benefits = () => {
   return (
-    <section className="benefits" >
+    <section className="benefits flex" >
         <div className='benefits__img'>
-            <img ></img>
+            <img src={benefits}></img>
         </div>
         <div className='benefits__text'>
             <h2>what will you get?</h2>

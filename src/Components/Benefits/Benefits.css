@@ -1,0 +1,32 @@
+.benefits {
+  height: 100vh;
+}
+
+.benefits img {
+  width: 53vw;
+  height: 33rem;
+}
+
+.benefits__text {
+  padding: 3rem;
+}
+
+.benefits__text h2 {
+  font-weight: 400;
+  font-size: 2.3rem;
+  line-height: 70px;
+}
+
+.benefits__text h3 {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 36px;
+}
+
+.benefits__text p {
+  font-weight: 500;
+  font-size: 1.05rem;
+  line-height: 30px;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=Benefits.css.map */
