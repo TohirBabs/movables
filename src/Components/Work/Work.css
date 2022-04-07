@@ -1,4 +1,5 @@
 .work {
+  position: relative;
   padding: 2rem 10rem;
 }
 
@@ -21,6 +22,14 @@
   margin-bottom: 1rem;
 }
 
+.work__divide {
+  position: absolute;
+  left: 47vw;
+  height: 150vh;
+  width: 5px;
+  background-color: black;
+}
+
 .work__step {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -35,7 +44,19 @@
 }
 
 .work__step > div {
+  position: relative;
   width: 35vw;
+}
+
+.work__step > div span {
+  position: absolute;
+  left: -105px;
+  top: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  border: 2px white solid;
 }
 
 .work__step h3 {

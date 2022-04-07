@@ -1,4 +1,5 @@
 .work{
+    position: relative;
     padding: 2rem 10rem;
     
     &__about{
@@ -19,6 +20,14 @@
         }
     }
 
+    &__divide{
+        position: absolute;
+        left: 47vw;
+        height: 150vh;
+        width: 5px;
+        background-color: black;
+    }
+
     &__steps{
         
     }
@@ -34,7 +43,19 @@
         }
 
         >div{
+            position: relative;
             width: 35vw;
+
+            span{
+                position: absolute;
+                left: -105px;
+                top: 10px;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: black;
+                border: 2px white solid;
+            }
         }
 
         h3{

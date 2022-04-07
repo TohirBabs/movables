@@ -17,6 +17,7 @@ const Work = () => {
                 build an eco-system for fast and easy services
             </p>
         </div>
+        <div className='work__divide'></div>
         <div className='work__steps'>
             <div className='work__step flex'>
                 <img src={step1}></img>
