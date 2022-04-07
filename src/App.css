@@ -17,6 +17,10 @@ button{
   border: none;
 }
 
+button:hover, a:hover{
+  cursor: pointer;
+}
+
 body, button, li, a{
   font-family: 'Poppins';
 }
