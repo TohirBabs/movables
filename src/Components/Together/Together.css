@@ -1,0 +1,43 @@
+.together {
+  background: #604AE7;
+  color: white;
+  margin: 10rem auto;
+  width: 70vw;
+  padding: 5rem 5rem;
+  position: relative;
+  border-radius: 5rem;
+}
+
+.together h2 {
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 106.69%;
+  width: 40rem;
+  margin: auto;
+  text-align: center;
+}
+
+.together p {
+  width: 55%;
+  margin: 4rem 0;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 40px;
+}
+
+.together button {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 54px;
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+}
+
+.together img {
+  position: absolute;
+  right: 5rem;
+  top: 13rem;
+  width: 20rem;
+  height: 20rem;
+}
+/*# sourceMappingURL=Together.css.map */

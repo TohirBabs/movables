@@ -1,0 +1,46 @@
+.waitlist{
+    img{
+        height: 120vh;
+    }
+
+    &__text{
+        margin: 0 5rem 10rem;
+
+        h2{
+            font-weight: 500;
+            font-size: 55px;
+            line-height: 75px;
+        }
+
+        h3{
+            font-weight: 500;
+            font-size: 27px;
+            line-height: 51px;
+        }
+
+        p{
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 45px;
+            margin-bottom: 5rem;
+        }
+
+        button{
+            background: #E9E9E9;
+            padding: 2rem 3rem;
+            font-weight: 500;
+            font-size: 25px;
+            border-radius: 2rem;
+            align-content: center;
+
+            img{
+                width: 2.5rem;
+                height: 2rem;
+                margin-left: 2rem;
+                align-self: center;
+            }
+        }
+    }
+
+    
+}
