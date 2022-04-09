@@ -5,9 +5,9 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-    <div className='Hero'>
+    <div className='Hero flex'>
         <Header />
-        {/* <Welcome /> */}
+        <Welcome />
     </div>
   )
 }

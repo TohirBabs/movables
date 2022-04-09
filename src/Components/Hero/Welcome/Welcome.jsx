@@ -6,7 +6,7 @@ const Welcome = () => {
   return (
     <div className='welcome flex'>
         <h2>Become a service Provider on movables</h2>
-        <button>Join Movables</button>
+        <button>Join Moveables</button>
     </div>
   )
 }

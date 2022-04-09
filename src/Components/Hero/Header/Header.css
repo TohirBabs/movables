@@ -2,14 +2,15 @@
 
 
 header{
-    height: 4.3rem;
+    height: max-content;
+    width: 100vw;
     color: white;
 
     /* line-height: 10vh; */
 }
 
 header .container{
-    padding-top: 0.875rem;
+    padding: 0.875rem 3.5rem;
     align-items: center;
 }
 
@@ -44,9 +45,7 @@ header ul li a {
     line-height: 36px;
 }
 
-header ul li a:hover{
-    color: var(--primary-clr);
-}
+
 
 .home-btn{
     padding: 0.8rem 1rem;
@@ -82,6 +81,11 @@ header ul li a:hover{
 
 
  @media (max-width: 1000px) {
+
+    header .container{
+        padding: 0.875rem 0;
+        align-items: center;
+    }
     .name{
         font-size: 1.8rem;
     }

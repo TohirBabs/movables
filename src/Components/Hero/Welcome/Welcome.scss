@@ -1,25 +1,25 @@
 .welcome{
     flex-direction: column;
+    margin: auto;
 
     h2{
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 4rem;
-        padding: 0 19rem;
-        padding-top: 12rem;
-        padding-bottom: 5rem;
-        line-height: 92px;
+        font-size: 3.5rem;
+        line-height: 5.75rem;
+        width: 53vw;
         text-align: center;
+        margin-bottom: 4rem;
     }
 
     button{
-        font-size: 29px;
-        line-height: 44px;
+        font-size: 1.6rem;
+        line-height: 2.75rem;
         background-color: transparent;
         border: 2px white solid;
         border-radius: 2rem;
         color: white;
-        padding: 1rem 5rem;
+        padding: 1rem 4rem;
     }
 }
