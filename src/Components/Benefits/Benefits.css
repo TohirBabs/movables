@@ -4,7 +4,8 @@
 
 .benefits img {
   width: 53vw;
-  height: 33rem;
+  height: 35vw;
+  border-radius: 1rem;
 }
 
 .benefits__text {
@@ -28,5 +29,54 @@
   font-size: 1.05rem;
   line-height: 30px;
   margin-bottom: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .benefits h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .benefits h3 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .benefits p {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .benefits {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .benefits img {
+    width: 100vw;
+    height: 65vw;
+    border-radius: 0;
+  }
+  .benefits__text {
+    padding: 1rem 0;
+  }
+  .benefits__text h2 {
+    font-size: 1.7rem;
+    line-height: 3rem;
+  }
+  .benefits__text h3 {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .benefits__text p {
+    font-size: rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
 }
 /*# sourceMappingURL=Benefits.css.map */

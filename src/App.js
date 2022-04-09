@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
       <Hero />
-      {/* <Benefits />
-      <Work />
+      <Benefits />
+      {/* <Work />
       <Join />
       <Waitlist />
       <Together />
