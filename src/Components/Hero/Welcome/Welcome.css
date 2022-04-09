@@ -12,7 +12,7 @@
   font-weight: 500;
   font-size: 3.5rem;
   line-height: 5.75rem;
-  width: 53vw;
+  width: 55vw;
   text-align: center;
   margin-bottom: 4rem;
 }
@@ -25,5 +25,32 @@
   border-radius: 2rem;
   color: white;
   padding: 1rem 4rem;
+}
+
+@media (max-width: 1200px) {
+  .welcome h2 {
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 4rem;
+    width: 80vw;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .welcome button {
+    font-size: 1.3rem;
+    line-height: 2.75rem;
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .welcome h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3rem;
+    width: 90vw;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
 }
 /*# sourceMappingURL=Welcome.css.map */
