@@ -43,7 +43,7 @@
         background-color: black;
 
         @media (max-width: 1000px) {
-            left: 2rem;
+            display: none;
         }
 
         span{
@@ -102,8 +102,7 @@
 
         @media (max-width: 1000px) {
             flex-direction: column;
-            margin-left: 5rem;
-            align-items: normal;
+            align-items: center;
         }
 
        
@@ -123,8 +122,8 @@
             }
             @media (max-width: 1400px) {
                 margin: 0;
-                width: 70vw;
-                height: 50vw;
+                width: 90vw;
+                height: 60vw;
             }
         }
 

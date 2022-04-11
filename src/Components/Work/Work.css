@@ -59,7 +59,7 @@
 
 @media (max-width: 1000px) {
   .work__divide {
-    left: 2rem;
+    display: none;
   }
 }
 
@@ -117,10 +117,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-left: 5rem;
-    -webkit-box-align: normal;
-        -ms-flex-align: normal;
-            align-items: normal;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -144,8 +143,8 @@
 @media (max-width: 1400px) {
   .work__step img {
     margin: 0;
-    width: 70vw;
-    height: 50vw;
+    width: 90vw;
+    height: 60vw;
   }
 }
 
