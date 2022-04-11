@@ -1,11 +1,20 @@
 .work{
     position: relative;
-    padding: 2rem 10rem;
+    padding: 2rem 4rem;
+    flex-direction: column;
+    align-items: center;
+
+    @media (max-width: 1000px) {
+        padding: 2rem 0;
+    }
     
     &__about{
         text-align: center;
         margin-bottom: 75px;
-        padding: 0 18rem;
+        padding: 0 10rem;
+        @media (max-width: 1000px) {
+            padding: 0;
+        }
 
         h2{
             font-weight: 400;
@@ -17,15 +26,69 @@
             font-size: 1.15rem;
             line-height: 30px;
             margin-bottom: 1rem;
+            min-width: 600px;
+
+            @media (max-width: 1000px) {
+                min-width: 80vw;
+            }
         }
     }
 
     &__divide{
         position: absolute;
         left: 47vw;
-        height: 150vh;
+        top: 16rem;
+        height: 75rem;
         width: 5px;
         background-color: black;
+
+        @media (max-width: 1000px) {
+            left: 2rem;
+        }
+
+        span{
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: black;
+            border: 2px white solid;
+        }
+
+        span:nth-child(1){
+            margin-top: 1.8rem;
+        }
+
+        span:nth-child(2){
+            margin-top: 23.2rem;
+        }
+
+        span:nth-child(3){
+            margin-top: 44.5rem;
+        }
+
+        span:nth-child(4){
+            margin-top: 66rem;
+        }
+
+        @media (max-width: 1400px) {
+            span:nth-child(1){
+                margin-top: 1.4rem;
+            }
+    
+            span:nth-child(2){
+                margin-top: 20.5rem;
+            }
+    
+            span:nth-child(3){
+                margin-top: 39.5rem;
+            }
+    
+            span:nth-child(4){
+                margin-top: 58.7rem;
+            }   
+        }
+
     }
 
     &__steps{
@@ -33,29 +96,46 @@
     }
 
     &__step{
+        position: relative;
         justify-content: space-between;
         margin-bottom: 50px;
 
+        @media (max-width: 1000px) {
+            flex-direction: column;
+            margin-left: 5rem;
+            align-items: normal;
+        }
+
+       
+
         img{
-            width: 470px;
-            height: 280px;
+            width: 27rem;
+            height: 18rem;
             border-radius: 35px;
+            margin-right: 10rem;
+            border: 2px solid #2979FF;
+
+            @media (max-width: 1400px) {
+                width: 24rem;
+                height: 16rem;
+                border-radius: 25px;
+                margin-right: 7rem;
+            }
+            @media (max-width: 1400px) {
+                margin: 0;
+                width: 70vw;
+                height: 50vw;
+            }
         }
 
         >div{
             position: relative;
-            width: 35vw;
+            width: 30rem;
 
-            span{
-                position: absolute;
-                left: -105px;
-                top: 10px;
-                width: 15px;
-                height: 15px;
-                border-radius: 50%;
-                background-color: black;
-                border: 2px white solid;
+            @media (max-width: 1000px) {
+                width: 80vw;
             }
+            
         }
 
         h3{

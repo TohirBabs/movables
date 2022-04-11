@@ -13,8 +13,8 @@ function App() {
     <div className="App">
       <Hero />
       <Benefits />
-      {/* <Work />
-      <Join />
+      <Work />
+      {/* <Join />
       <Waitlist />
       <Together />
       <Footer /> */}
