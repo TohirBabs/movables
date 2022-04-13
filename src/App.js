@@ -14,8 +14,8 @@ function App() {
       <Hero />
       <Benefits />
       <Work />
-      {/* <Join />
-      <Waitlist />
+      <Join />
+      {/* <Waitlist />
       <Together />
       <Footer /> */}
     </div>

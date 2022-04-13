@@ -11,7 +11,7 @@ const Join = () => {
         chooses the desired option; then confirms the pickup.
         </p>
         <div className='buttons'>
-            <button>Join in as Dispatcher</button>
+            <button>Join in as a service provider</button>
             <button>Join in as User</button>
         </div>
     </div>
