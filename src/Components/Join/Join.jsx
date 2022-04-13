@@ -3,7 +3,7 @@ import './Join.css'
 
 const Join = () => {
   return (
-    <div className='join'>
+    <div className='join' id='join'>
         <h2>Join Movables today</h2>
         <p>
         The rider enters their destination into the “Where to?” box; 

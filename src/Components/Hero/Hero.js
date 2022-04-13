@@ -5,7 +5,7 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-    <div className='Hero flex'>
+    <div className='Hero flex' id='home'>
         <Header />
         <Welcome />
     </div>
