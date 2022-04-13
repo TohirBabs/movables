@@ -13,7 +13,7 @@ const Waitlist = () => {
             <h3>Onboard and get client. Simple, Fast, Secure.</h3>
             <p>Register your Company or Vehicle with us as a service provider and let us handle, clients sourcing, 
             supply chain operations and cutomer support.</p>
-            <button>Join our waitlist <img src={rightarrow}></img></button>
+            <button><p>Join waitlist</p> <img src={rightarrow}></img></button>
         </div>
     </div>
   )

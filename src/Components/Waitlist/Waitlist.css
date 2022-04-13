@@ -1,33 +1,77 @@
 .waitlist img {
-  height: 120vh;
+  height: 55vw;
+  width: 45vw;
+}
+
+@media (max-width: 830px) {
+  .waitlist img {
+    width: 100vw;
+    height: 110vw;
+  }
 }
 
 .waitlist__text {
-  margin: 0 5rem 10rem;
+  margin: 5rem 5rem 10rem;
 }
 
 .waitlist__text h2 {
   font-weight: 500;
-  font-size: 55px;
-  line-height: 75px;
+  font-size: 47px;
+  line-height: 70px;
 }
 
 .waitlist__text h3 {
   font-weight: 500;
-  font-size: 27px;
-  line-height: 51px;
+  font-size: 23px;
+  line-height: 47px;
 }
 
 .waitlist__text p {
   font-weight: 400;
-  font-size: 25px;
-  line-height: 45px;
+  font-size: 20px;
+  line-height: 40px;
   margin-bottom: 5rem;
 }
 
+@media (max-width: 1200px) {
+  .waitlist__text {
+    margin: 2rem;
+  }
+  .waitlist__text h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 1200px) and (max-width: 830px) {
+  .waitlist__text h2 {
+    font-size: 32px;
+    line-height: 43px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .waitlist__text h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .waitlist__text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+  }
+}
+
 .waitlist__text button {
-  background: #E9E9E9;
-  padding: 2rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #2121FF;
+  color: white;
+  padding: 1.5rem 2.5rem;
   font-weight: 500;
   font-size: 25px;
   border-radius: 2rem;
@@ -35,12 +79,50 @@
       align-content: center;
 }
 
+.waitlist__text button p {
+  margin-bottom: 0;
+}
+
 .waitlist__text button img {
-  width: 2.5rem;
+  width: 2rem;
   height: 2rem;
   margin-left: 2rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+@media (max-width: 1200px) {
+  .waitlist__text button {
+    padding: 1rem 2rem;
+    font-weight: 500;
+    font-size: 25px;
+    border-radius: 2rem;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+}
+
+@media (max-width: 1200px) and (max-width: 830px) {
+  .waitlist__text button {
+    padding: 0.8rem 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .waitlist__text button img {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 830px) {
+  .waitlist {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=Waitlist.css.map */
