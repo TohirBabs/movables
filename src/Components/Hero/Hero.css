@@ -1,7 +1,11 @@
-.Hero{
-    height: 100vh;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    background: conic-gradient(from 130.22deg at 51.55% 77.15%, #5685FF 0deg, rgba(61, 35, 254, 0.949) 360deg);
+.Hero {
+  height: 700vh;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background: conic-gradient(
+    from 130.22deg at 51.55% 77.15%,
+    #5685ff 0deg,
+    rgba(61, 35, 254, 0.949) 360deg
+  );
 }
