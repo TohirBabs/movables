@@ -16,8 +16,8 @@ function App() {
       <Work />
       <Join />
       <Waitlist />
-      {/* <Together />
-      <Footer /> */}
+      {/* <Together /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

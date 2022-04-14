@@ -3,11 +3,6 @@ import "./Header.css"
 import logo from "./logop.png"
 
 const Header = () => {
-    // when scroll header at top
-    window.addEventListener("scroll", function() {
-        const header = document.getElementById('header')
-        header.classList.toggle("active", window.scrollY > 100)
-    })
 
     // toggle menu
     const [Mobile, setMobile] = useState(false);
@@ -28,8 +23,6 @@ const Header = () => {
                         <li><a href='#partners'>partners</a></li>
                         <li><a href='#join'>Join Moveables</a></li>
                         <li><a href='#contact'>Contact us</a></li>
-                        {/* <li><a href='#blog'>blog</a></li>
-                        <li><a href='#contact'>contact</a></li>     */}
                         <li><a href='#'><button className='home-btn'>Request Access</button></a></li>
                     </ul>
                     

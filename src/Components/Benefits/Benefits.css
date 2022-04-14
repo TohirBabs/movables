@@ -1,3 +1,7 @@
+.benefits {
+  padding-top: 5rem;
+}
+
 .benefits img {
   width: 53vw;
   height: 35vw;
@@ -5,49 +9,46 @@
 }
 
 .benefits__text {
-  padding: 3rem;
+  padding: 0 3rem;
 }
 
 .benefits__text h2 {
   font-weight: 400;
-  font-size: 2.3rem;
+  font-size: 2rem;
   line-height: 70px;
 }
 
 .benefits__text h3 {
-  font-weight: 400;
-  font-size: 1.25rem;
+  font-weight: 500;
+  font-size: 1.2rem;
   line-height: 36px;
 }
 
 .benefits__text p {
-  font-weight: 500;
   font-size: 1.05rem;
-  line-height: 30px;
+  line-height: 22px;
   margin-bottom: 1rem;
 }
 
 @media (max-width: 1200px) {
   .benefits h2 {
-    font-weight: 400;
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 3rem;
   }
   .benefits h3 {
-    font-weight: 400;
     font-size: 1rem;
     line-height: 2rem;
   }
   .benefits p {
-    font-weight: 500;
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 1rem;
     margin-bottom: 0.8rem;
   }
 }
 
 @media (max-width: 1000px) {
   .benefits {
+    padding-top: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -63,15 +64,15 @@
   }
   .benefits__text h2 {
     font-size: 1.7rem;
-    line-height: 3rem;
+    line-height: 2.2rem;
   }
   .benefits__text h3 {
+    font-weight: 500;
     font-size: 1rem;
     line-height: 2rem;
   }
   .benefits__text p {
-    font-size: rem;
-    line-height: 1.5rem;
+    line-height: 1.1rem;
     margin-bottom: 0.8rem;
   }
 }

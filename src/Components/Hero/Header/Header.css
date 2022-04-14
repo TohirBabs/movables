@@ -1,195 +1,172 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
 
+header {
+  height: max-content;
+  width: 100vw;
+  color: white;
 
-header{
-    height: max-content;
-    width: 100vw;
-    color: white;
-
-    /* line-height: 10vh; */
+  /* line-height: 10vh; */
 }
 
-header .container{
-    padding: 0.875rem 2.5rem;
-    align-items: center;
+header .container {
+  padding: 0.875rem 2.5rem;
+  align-items: center;
 }
 
-header .link{
-    margin-right: 2rem;
+header .link {
+  margin-right: 2rem;
 }
-
 
 header ul li {
-    margin-left: 1.875rem;
+  margin-left: 1.875rem;
 }
 
-.logo img{
-    width: 3.25rem;
-    height: 3.25rem;
+.logo img {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
-.name{
-    font-family: "Montserrat";
-    font-weight: 600;
-    font-size: 2rem;
-    line-height: 39px;
-    max-width: max-content;
-    margin-left: 0.5rem;
+.name {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 39px;
+  max-width: max-content;
+  margin-left: 0.5rem;
 }
 
 header ul li a {
-    color: white;
-    transition: 0.5s;
-    font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 36px;
+  color: white;
+  transition: 0.5s;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 30px;
 }
 
-
-
-.home-btn{
-    padding: 0.8rem 1.2rem;
-    border-radius: 0.375rem;
-    transition: 0.3s all ease;
-    cursor: pointer;
-    height: fit-content;
-    overflow: hidden;
-    background: #2979FF;
-    font-size: 1rem;
-    color: white;
+.home-btn {
+  padding: 0.6rem 1rem;
+  border-radius: 0.375rem;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  height: fit-content;
+  overflow: hidden;
+  background: #2979ff;
+  font-size: 1rem;
+  color: white;
 }
 
-.home-btn{
-    background: #2979FF;
+.home-btn {
+  background: #2979ff;
 }
 
-
-.toggle{
-    display: none;
-}
-
-.header.active{
-    height: 5rem;
-    position: fixed;
-    top: 0;
-    z-index: 100;
-    width: 100%;
-    background-color: rgba(61, 35, 254, 0.949);
-    box-shadow: -1px 11px 24px -11px rgba(0,0,0,0.75);
-    transition: 0.5s;
+.toggle {
+  display: none;
 }
 
 @media (max-width: 1200px) {
-    header .container{
-        padding: 0.875rem 0;
-        align-items: center;
-    }
+  header .container {
+    padding: 0.875rem 0;
+    align-items: center;
+  }
 }
 
+@media (max-width: 1050px) {
+  .name {
+    font-size: 1.4rem;
+  }
 
- @media (max-width: 1050px) {
+  header ul {
+    padding-top: 30px;
+  }
 
-    .name{
-        font-size: 1.8rem;
+  header .link {
+    position: absolute;
+    display: block;
+    list-style: none;
+    left: 0;
+    top: 0;
+    overflow: scroll;
+    transition: all 0.5s ease-in-out;
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+    z-index: 888;
+  }
+
+  .hide {
+    animation: slide-in 1s forwards;
+    transform: translateX(-120%);
+    visibility: hidden;
+  }
+
+  .show {
+    visibility: visible;
+    transform: translateX(0);
+    animation: slide-out 1s forwards;
+  }
+
+  @keyframes slide-out {
+    from {
+      transform: translateX(-120%);
+      visibility: hidden;
     }
 
-    header ul {
-        padding-top: 30px;
+    to {
+      transform: translateX(0);
+      visibility: visible;
+    }
+  }
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(0);
+      visibility: visible;
     }
 
-    header .link {
-        position: absolute;
-        display: block;
-        list-style: none;
-        box-shadow: rgba(50, 50, 93, 0.23) 0 50px 100px -20px, rgba(0,0,0, 0.3) 0 30px 60px -30px  ;
-        left: 0;
-        top: 0;
-        overflow: scroll;
-        transition: all 0.5s ease-in-out;
-        width: 60%;
-        height: 100vh;
-        background-color: white;
-        z-index: 888;
+    to {
+      transform: translateX(-120%);
+      visibility: hidden;
     }
+  }
 
+  header ul li {
+    width: 100%;
+    transition: 0.5s;
+    line-height: 70px;
+  }
 
+  .toggle {
+    display: block;
+    margin-left: 1rem;
+  }
 
-    .hide{
-        animation: slide-in 1s forwards;
-        transform: translateX(-120%);
-        visibility: hidden;
-    }
+  .toggle:hover {
+    transform: none;
+  }
 
-    .show{
-        visibility: visible;
-        transform: translateX(0);
-        animation: slide-out 1s forwards;
-    }
+  header ul li a {
+    display: inline-block;
+    width: 90%;
+    color: #2979ff;
+  }
 
-    @keyframes slide-out {
-        from{
-            transform: translateX(-120%);
-            visibility: hidden;
-        }
+  ul .home-btn {
+    position: absolute;
+    bottom: 3rem;
+  }
 
-        to{
-            transform: translateX(0);
-            visibility: visible;
-        }
-    }
-
-    @keyframes slide-in {
-        from{
-            transform: translateX(0);
-            visibility: visible;
-        }
-
-        to{
-            transform: translateX(-120%);
-            visibility: hidden;
-        }
-    }
-
-    header ul li {
-        width: 100%;
-        transition: 0.5s;
-        line-height: 70px;
-    }
-
-    .toggle {
-        display: block;
-        margin-left: 1rem;
-    }
-
-    .toggle:hover{
-        transform: none;
-    }
-
-    header ul li a{
-        display: inline-block;
-        width: 90%;
-        color: #2979FF;
-    }
-
-    ul .home-btn{
-        position: absolute;
-        bottom: 3rem;
-    }
-
-    .logo img{
-        width: 2.3rem;
-        height: 2.3rem;
-    }
-
-    
+  .logo img {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
 }
 
 @media (max-width: 450px) {
-    .name{
-        font-size: 1rem;
-    }
+  .name {
+    font-size: 1rem;
+  }
 
-    .home-btn{
-        padding: 0.6rem 1rem;
-    }
+  .home-btn {
+    padding: 0.6rem 1rem;
+  }
 }

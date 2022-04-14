@@ -1,5 +1,9 @@
+.waitlist {
+  padding: 6rem;
+}
+
 .waitlist img {
-  height: 55vw;
+  height: 50vw;
   width: 45vw;
 }
 
@@ -14,54 +18,33 @@
   margin: 5rem 5rem 10rem;
 }
 
+@media (max-width: 830px) {
+  .waitlist__text {
+    margin: 2rem;
+  }
+}
+
 .waitlist__text h2 {
   font-weight: 500;
-  font-size: 47px;
-  line-height: 70px;
+  font-size: 2rem;
+  line-height: 50px;
 }
 
 .waitlist__text h3 {
   font-weight: 500;
-  font-size: 23px;
-  line-height: 47px;
+  font-size: 1.15rem;
+  line-height: 40px;
 }
 
 .waitlist__text p {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 40px;
+  font-size: 1.05rem;
+  line-height: 30px;
   margin-bottom: 5rem;
 }
 
 @media (max-width: 1200px) {
   .waitlist__text {
-    margin: 2rem;
-  }
-  .waitlist__text h2 {
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 60px;
-  }
-}
-
-@media (max-width: 1200px) and (max-width: 830px) {
-  .waitlist__text h2 {
-    font-size: 32px;
-    line-height: 43px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .waitlist__text h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 35px;
-  }
-  .waitlist__text p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 2rem;
+    padding: 0;
   }
 }
 
@@ -71,10 +54,10 @@
   display: flex;
   background: #2121FF;
   color: white;
-  padding: 1.5rem 2.5rem;
+  padding: 0.8rem;
   font-weight: 500;
-  font-size: 25px;
-  border-radius: 2rem;
+  font-size: 1.05rem;
+  border-radius: 0.5rem;
   -ms-flex-line-pack: center;
       align-content: center;
 }
@@ -84,36 +67,29 @@
 }
 
 .waitlist__text button img {
-  width: 2rem;
-  height: 2rem;
-  margin-left: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 1em;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
-@media (max-width: 1200px) {
-  .waitlist__text button {
-    padding: 1rem 2rem;
-    font-weight: 500;
-    font-size: 25px;
-    border-radius: 2rem;
-    -ms-flex-line-pack: center;
-        align-content: center;
-  }
-}
-
-@media (max-width: 1200px) and (max-width: 830px) {
+@media (max-width: 830px) {
   .waitlist__text button {
     padding: 0.8rem 1rem;
   }
 }
 
+.waitlist__text button img {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 1rem;
+}
+
 @media (max-width: 1200px) {
-  .waitlist__text button img {
-    width: 1rem;
-    height: 1rem;
-    margin-left: 1rem;
+  .waitlist {
+    padding: 0;
   }
 }
 

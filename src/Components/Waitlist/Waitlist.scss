@@ -1,7 +1,9 @@
 .waitlist{
+
+    padding:  6rem;
     
     img{
-        height: 55vw;
+        height: 50vw;
         width: 45vw;
 
         @media (max-width: 830px){
@@ -13,51 +15,49 @@
     &__text{
         margin: 5rem 5rem 10rem;
 
+        @media (max-width: 830px){
+        margin: 2rem;
+    }
+
         h2{
             font-weight: 500;
-            font-size: 47px;
-            line-height: 70px;
+            font-size: 2rem;
+            line-height: 50px;
 
             
         }
 
         h3{
             font-weight: 500;
-            font-size: 23px;
-            line-height: 47px;
+            font-size: 1.15rem;
+            line-height: 40px;
         }
 
         p{
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 40px;
+            font-size: 1.05rem;
+            line-height: 30px;
             margin-bottom: 5rem;
         }
 
         @media (max-width: 1200px){
-         margin: 2rem;
-
-        h2{
-            font-weight: 500;
-            font-size: 40px;
-            line-height: 60px;
+            padding: 0;
             @media (max-width: 830px){
-            font-size: 32px;
-            line-height: 43px;
-    }
-        }
+    //         font-size: 32px;
+    //         line-height: 43px;
+    // }
+    //     }
 
-        h3{
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 35px;
-        }
+    //     h3{
+    //         font-weight: 500;
+    //         font-size: 20px;
+    //         line-height: 35px;
+    //     }
 
-        p{
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 30px;
-            margin-bottom: 2rem;
+    //     p{
+    //         font-weight: 400;
+    //         font-size: 18px;
+    //         line-height: 30px;
+    //         margin-bottom: 2rem;
         }   
         }
 
@@ -65,10 +65,10 @@
             display: flex;
             background: #2121FF;
             color: white;
-            padding: 1.5rem 2.5rem;
+            padding: 0.8rem;
             font-weight: 500;
-            font-size: 25px;
-            border-radius: 2rem;
+            font-size: 1.05rem;
+            border-radius: 0.5rem;
             align-content: center;
 
             p{
@@ -76,18 +76,13 @@
             }
 
             img{
-                width: 2rem;
-                height: 2rem;
-                margin-left: 2rem;
+                width: 1.5rem;
+                height: 1.5rem;
+                margin-left: 1em;
                 align-self: center;
             }
 
-            @media (max-width: 1200px){
-            padding: 1rem 2rem;
-            font-weight: 500;
-            font-size: 25px;
-            border-radius: 2rem;
-            align-content: center;
+           
 
             @media (max-width: 830px){
             padding: 0.8rem 1rem;
@@ -98,10 +93,11 @@
                 height: 1rem;
                 margin-left: 1rem;
             }   
-            }
         }
     }
-
+    @media (max-width: 1200px){
+       padding: 0;
+    }
     @media (max-width: 830px){
         flex-direction: column;
     }
