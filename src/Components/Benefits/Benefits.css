@@ -1,15 +1,30 @@
 .benefits {
-  padding-top: 5rem;
+  padding-top: 2rem;
+}
+
+.benefits__list {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-height: 250px;
+}
+
+.benefits .benefit {
+  width: 340px;
+  margin-right: 0.5rem;
 }
 
 .benefits img {
-  width: 53vw;
-  height: 35vw;
+  width: 40vw;
+  height: 28vw;
   border-radius: 1rem;
 }
 
 .benefits__text {
-  padding: 0 3rem;
+  padding: 0 1.5rem;
 }
 
 .benefits__text h2 {
@@ -21,12 +36,12 @@
 .benefits__text h3 {
   font-weight: 500;
   font-size: 1.2rem;
-  line-height: 36px;
+  line-height: 2rem;
 }
 
 .benefits__text p {
-  font-size: 1.05rem;
-  line-height: 22px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   margin-bottom: 1rem;
 }
 

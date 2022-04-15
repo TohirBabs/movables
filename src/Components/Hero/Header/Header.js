@@ -20,7 +20,7 @@ const Header = () => {
                 <div className='navlink d_flex'>
                     <ul className={Mobile ? "link f_flex show" : "link f_flex hide"} onClick={() => setMobile(false)}>
                         <li><a href='#home'>Home</a></li>
-                        <li><a href='#partners'>partners</a></li>
+                        <li><a href='#partners'>Partners</a></li>
                         <li><a href='#join'>Join Moveables</a></li>
                         <li><a href='#contact'>Contact us</a></li>
                         <li><a href='#'><button className='home-btn'>Request Access</button></a></li>

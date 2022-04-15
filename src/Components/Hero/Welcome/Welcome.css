@@ -10,46 +10,43 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  font-size: 3rem;
-  line-height: 5rem;
+  font-size: 2rem;
   width: 55vw;
   text-align: center;
   margin-bottom: 2rem;
 }
 
 .welcome button {
-  font-size: 1.4rem;
-  line-height: 2.75rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
   background-color: transparent;
   border: 2px white solid;
   border-radius: 1rem;
   color: white;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 2rem;
 }
 
 @media (max-width: 1200px) {
   .welcome h2 {
-    font-weight: 500;
-    font-size: 2.7rem;
     line-height: 4rem;
-    width: 70vw;
-    text-align: center;
-    margin-bottom: 2rem;
+    width: 80vw;
   }
   .welcome button {
     font-size: 1rem;
-    line-height: 2rem;
-    padding: 0.5rem 1rem;
   }
 }
 
 @media (max-width: 680px) {
   .welcome h2 {
-    font-weight: 500;
-    font-size: 2rem;
-    line-height: 3rem;
+    text-align: left;
+    font-size: 1.8rem;
     width: 90vw;
-    text-align: center;
+    line-height: 2rem;
+  }
+  .welcome button {
+    margin-right: 40vw;
+    padding: 0.3rem 0.8rem;
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=Welcome.css.map */
