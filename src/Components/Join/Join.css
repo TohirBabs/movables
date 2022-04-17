@@ -1,25 +1,25 @@
 .join {
   background: #604ae7;
-  padding: 5rem 5rem;
+  padding: 2rem;
   color: white;
 }
 
 .join h2 {
   font-weight: 500;
-  font-size: 2.3rem;
-  line-height: 63px;
+  font-size: 2rem;
+  line-height: 60px;
 }
 
 .join p,
 .join button {
   font-size: 1.05rem;
-  line-height: 34px;
+  line-height: 2rem;
 }
 
 .join p {
   width: 90%;
   margin-top: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .join button {
