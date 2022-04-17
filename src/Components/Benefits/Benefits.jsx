@@ -10,7 +10,7 @@ const Benefits = () => {
             <img src={benefits}></img>
         </div>
         <div className='benefits__text'>
-        <h2>what will you get?</h2>
+        <h2>What will you get?</h2>
         <div className='benefits__list flex'>
           <div className='benefit'>
              <h3>More Clients</h3>
